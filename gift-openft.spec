@@ -14,6 +14,7 @@ Requires:	gift
 BuildRequires:	db4-devel
 BuildRequires:	gift-devel
 BuildRequires:	zlib-devel
+BuildRequires:	magic-devel
 BuildRoot:      %{_tmppath}/%{name}-%{version}-buildroot
 
 %description
