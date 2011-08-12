@@ -8,7 +8,6 @@ Version:        %{version}
 Release:        %mkrel %{rel}
 License:        GPL
 Group:          Networking/File transfer
-Vendor:         Penguin Liberation Front
 URL:            http://gift.sf.net/
 Source0:        http://download.sourceforge.net/gift/%{name}-%{version}.tar.bz2
 Requires:	gift
