@@ -1,6 +1,6 @@
 %define name    gift-openft
 %define version 0.2.1.6
-%define rel	4
+%define rel	5
 
 Summary:        OpenFT plugin for giFT
 Name:           %{name}
@@ -11,7 +11,7 @@ Group:          Networking/File transfer
 URL:            http://gift.sf.net/
 Source0:        http://download.sourceforge.net/gift/%{name}-%{version}.tar.bz2
 Requires:	gift
-BuildRequires:	db4-devel
+BuildRequires:	db-devel
 BuildRequires:	gift-devel
 BuildRequires:	zlib-devel
 BuildRequires:	magic-devel
