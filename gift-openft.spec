@@ -1,11 +1,11 @@
 %define name    gift-openft
 %define version 0.2.1.6
-%define rel	5
+%define rel	6
 
 Summary:        OpenFT plugin for giFT
 Name:           %{name}
 Version:        %{version}
-Release:        %mkrel %{rel}
+Release:        %{rel}
 License:        GPL
 Group:          Networking/File transfer
 URL:            http://gift.sf.net/
