@@ -25,7 +25,6 @@ This is the OpenFT plugin for giFT.
 perl -pi -e 's,\${prefix}/lib,%{_libdir},' m4/gift-prefix.m4 configure*
 
 %build
-autoreconf -i
 %configure2_5x 
 %make
 
