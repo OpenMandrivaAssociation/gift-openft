@@ -41,3 +41,17 @@ perl -pi -e 's,\${prefix}/lib,%{_libdir},' m4/gift-prefix.m4 configure*
 %{_datadir}/*
 %{_libdir}/giFT/*
 
+
+
+%changelog
+* Tue May 15 2012 Crispin Boylan <crisb@mandriva.org> 0.2.1.6-6
++ Revision: 799077
+- Drop mkrel
+- Rebuild
+
+* Fri Aug 12 2011 Andrey Bondrov <abondrov@mandriva.org> 0.2.1.6-4
++ Revision: 694182
+- Fix BuildRequires
+- Remove PLF reference
+- imported package gift-openft
+
