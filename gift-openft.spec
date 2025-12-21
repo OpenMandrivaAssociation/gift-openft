@@ -11,6 +11,11 @@ Group:          Networking/File transfer
 URL:            https://gift.sf.net/
 Source0:        http://download.sourceforge.net/gift/%{name}-%{version}.tar.bz2
 Requires:	gift
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	db-devel
 BuildRequires:	gift-devel
 BuildRequires:	zlib-devel
